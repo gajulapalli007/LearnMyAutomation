@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="141144" started-at="2018-04-26T15:24:05Z" finished-at="2018-04-26T15:26:26Z">
+    <groups>
+      <group name="FunctionalTEstgrp2">
+        <method signature="ShoppingCartTest.isUserCredentialsEnteredCorrectly()[pri:0, instance:com.Amazon.Test.Scenarios.ShoppingCartTest@4524411f]" name="isUserCredentialsEnteredCorrectly" class="com.Amazon.Test.Scenarios.ShoppingCartTest"/>
+      </group> <!-- FunctionalTEstgrp2 -->
+      <group name="FunctionalTEstgrp1">
+        <method signature="ShoppingCartTest.isUserAbleToClickSign()[pri:0, instance:com.Amazon.Test.Scenarios.ShoppingCartTest@4524411f]" name="isUserAbleToClickSign" class="com.Amazon.Test.Scenarios.ShoppingCartTest"/>
+      </group> <!-- FunctionalTEstgrp1 -->
+      <group name="FunctionalTEstgrp5">
+        <method signature="ShoppingCartTest.isCustomerAbleToAddItemToShoppingCart()[pri:0, instance:com.Amazon.Test.Scenarios.ShoppingCartTest@4524411f]" name="isCustomerAbleToAddItemToShoppingCart" class="com.Amazon.Test.Scenarios.ShoppingCartTest"/>
+      </group> <!-- FunctionalTEstgrp5 -->
+    </groups>
+    <test name="Default test" duration-ms="141144" started-at="2018-04-26T15:24:05Z" finished-at="2018-04-26T15:26:26Z">
+      <class name="com.Amazon.Test.Scenarios.ShoppingCartTest">
+        <test-method status="PASS" signature="setupSelenium()[pri:0, instance:com.Amazon.Test.Scenarios.ShoppingCartTest@4524411f]" name="setupSelenium" is-config="true" duration-ms="4697" started-at="2018-04-26T15:24:05Z" finished-at="2018-04-26T15:24:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSelenium -->
+        <test-method status="PASS" signature="initialize(java.lang.reflect.Method)[pri:0, instance:com.Amazon.Test.Scenarios.ShoppingCartTest@4524411f]" name="initialize" is-config="true" duration-ms="1044" started-at="2018-04-26T15:24:10Z" finished-at="2018-04-26T15:24:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Amazon.Test.Scenarios.ShoppingCartTest.isURLConnected()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="isURLConnected()[pri:0, instance:com.Amazon.Test.Scenarios.ShoppingCartTest@4524411f]" name="isURLConnected" duration-ms="10180" started-at="2018-04-26T15:24:11Z" finished-at="2018-04-26T15:24:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isURLConnected -->
+        <test-method status="PASS" signature="cleanUp(java.lang.reflect.Method)[pri:0, instance:com.Amazon.Test.Scenarios.ShoppingCartTest@4524411f]" name="cleanUp" is-config="true" duration-ms="203" started-at="2018-04-26T15:24:21Z" finished-at="2018-04-26T15:24:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Amazon.Test.Scenarios.ShoppingCartTest.isURLConnected()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="cleanup(java.lang.reflect.Method)[pri:0, instance:com.Amazon.Test.Scenarios.ShoppingCartTest@4524411f]" name="cleanup" is-config="true" duration-ms="0" started-at="2018-04-26T15:24:21Z" finished-at="2018-04-26T15:24:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Amazon.Test.Scenarios.ShoppingCartTest.isURLConnected()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+        <test-method status="PASS" signature="initialize(java.lang.reflect.Method)[pri:0, instance:com.Amazon.Test.Scenarios.ShoppingCartTest@4524411f]" name="initialize" is-config="true" duration-ms="1022" started-at="2018-04-26T15:24:21Z" finished-at="2018-04-26T15:24:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Amazon.Test.Scenarios.ShoppingCartTest.isUserAbleToClickSign()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="isUserAbleToClickSign()[pri:0, instance:com.Amazon.Test.Scenarios.ShoppingCartTest@4524411f]" name="isUserAbleToClickSign" duration-ms="10892" started-at="2018-04-26T15:24:22Z" description="Check the login work flow for Amazon customer" depends-on-methods="com.Amazon.Test.Scenarios.ShoppingCartTest.isURLConnected" finished-at="2018-04-26T15:24:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isUserAbleToClickSign -->
+        <test-method status="PASS" signature="cleanup(java.lang.reflect.Method)[pri:0, instance:com.Amazon.Test.Scenarios.ShoppingCartTest@4524411f]" name="cleanup" is-config="true" duration-ms="1" started-at="2018-04-26T15:24:33Z" finished-at="2018-04-26T15:24:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Amazon.Test.Scenarios.ShoppingCartTest.isUserAbleToClickSign()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+        <test-method status="PASS" signature="cleanUp(java.lang.reflect.Method)[pri:0, instance:com.Amazon.Test.Scenarios.ShoppingCartTest@4524411f]" name="cleanUp" is-config="true" duration-ms="202" started-at="2018-04-26T15:24:33Z" finished-at="2018-04-26T15:24:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Amazon.Test.Scenarios.ShoppingCartTest.isUserAbleToClickSign()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="initialize(java.lang.reflect.Method)[pri:0, instance:com.Amazon.Test.Scenarios.ShoppingCartTest@4524411f]" name="initialize" is-config="true" duration-ms="1010" started-at="2018-04-26T15:24:33Z" finished-at="2018-04-26T15:24:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Amazon.Test.Scenarios.ShoppingCartTest.isUserCredentialsEnteredCorrectly()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="isUserCredentialsEnteredCorrectly()[pri:0, instance:com.Amazon.Test.Scenarios.ShoppingCartTest@4524411f]" name="isUserCredentialsEnteredCorrectly" duration-ms="9579" started-at="2018-04-26T15:24:34Z" description="Check the login work flow for Amazon customer" depends-on-methods="com.Amazon.Test.Scenarios.ShoppingCartTest.isUserAbleToClickSign" finished-at="2018-04-26T15:24:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isUserCredentialsEnteredCorrectly -->
+        <test-method status="PASS" signature="cleanup(java.lang.reflect.Method)[pri:0, instance:com.Amazon.Test.Scenarios.ShoppingCartTest@4524411f]" name="cleanup" is-config="true" duration-ms="1" started-at="2018-04-26T15:24:44Z" finished-at="2018-04-26T15:24:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Amazon.Test.Scenarios.ShoppingCartTest.isUserCredentialsEnteredCorrectly()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+        <test-method status="PASS" signature="cleanUp(java.lang.reflect.Method)[pri:0, instance:com.Amazon.Test.Scenarios.ShoppingCartTest@4524411f]" name="cleanUp" is-config="true" duration-ms="201" started-at="2018-04-26T15:24:44Z" finished-at="2018-04-26T15:24:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Amazon.Test.Scenarios.ShoppingCartTest.isUserCredentialsEnteredCorrectly()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="initialize(java.lang.reflect.Method)[pri:0, instance:com.Amazon.Test.Scenarios.ShoppingCartTest@4524411f]" name="initialize" is-config="true" duration-ms="1004" started-at="2018-04-26T15:24:44Z" finished-at="2018-04-26T15:24:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Amazon.Test.Scenarios.ShoppingCartTest.isCustomerAbleToAddItemToShoppingCart() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="isCustomerAbleToAddItemToShoppingCart()[pri:0, instance:com.Amazon.Test.Scenarios.ShoppingCartTest@4524411f]" name="isCustomerAbleToAddItemToShoppingCart" duration-ms="100062" started-at="2018-04-26T15:24:45Z" description="Check work flow of customer shopping adding and checkout" depends-on-methods="com.Amazon.Test.Scenarios.ShoppingCartTest.isUserCredentialsEnteredCorrectly" finished-at="2018-04-26T15:26:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isCustomerAbleToAddItemToShoppingCart -->
+        <test-method status="PASS" signature="cleanup(java.lang.reflect.Method)[pri:0, instance:com.Amazon.Test.Scenarios.ShoppingCartTest@4524411f]" name="cleanup" is-config="true" duration-ms="0" started-at="2018-04-26T15:26:25Z" finished-at="2018-04-26T15:26:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Amazon.Test.Scenarios.ShoppingCartTest.isCustomerAbleToAddItemToShoppingCart() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+        <test-method status="PASS" signature="cleanUp(java.lang.reflect.Method)[pri:0, instance:com.Amazon.Test.Scenarios.ShoppingCartTest@4524411f]" name="cleanUp" is-config="true" duration-ms="207" started-at="2018-04-26T15:26:25Z" finished-at="2018-04-26T15:26:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Amazon.Test.Scenarios.ShoppingCartTest.isCustomerAbleToAddItemToShoppingCart() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="closeSelenium()[pri:0, instance:com.Amazon.Test.Scenarios.ShoppingCartTest@4524411f]" name="closeSelenium" is-config="true" duration-ms="818" started-at="2018-04-26T15:26:26Z" finished-at="2018-04-26T15:26:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSelenium -->
+      </class> <!-- com.Amazon.Test.Scenarios.ShoppingCartTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
